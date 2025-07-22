@@ -165,3 +165,60 @@ Watch the complete demonstration of Cardora in action.
 - **Hashing**: Advanced cryptographic hashing with salt protection
 - **Mobile Integration**: Cardora App support 
 - **Verification**: QR code 
+
+----
+
+# Application in Stories
+
+### **User Stories (Mobile App - Card Holder)**
+
+1. **Registration & Login**
+   - As a user, I can register with my email, password, and public key (as my address).
+   - I can log in securely to access my digital cards.
+
+2. **Card Management**
+   - **Event Cards**: Automatically appear on my screen when issued.
+   - **Employee Cards**: Must request from registered organizations.
+   - I can view cards in **Hash** or **Cryptographic** mode.
+
+3. **Security & Settings**
+   - I can export my private key.
+   - I can log out to keep my cards secure.
+   - *(Future)* Suspend cards if my phone is stolen.
+
+4. **Dual Mode Access**
+   - I can switch between **Normal User** and **Verifier** roles.
+
+---
+
+### **User Stories (Admin Portal - Organization Owner)**
+
+1. **Registration & Dashboard**
+   - I can register as a **Customer** or **Organization**.
+   - After login, I see a dashboard with:
+      - Organizations I manage
+      - Billing history
+      - Settings
+
+2. **Card Issuance & Management**
+   - Under each organization, I see **Events/Entities** and issued cards.
+   - I can **import data** to generate digital cards.
+   - I can customize card fields (tags) before creation.
+
+3. **Preview & Approval**
+   - After setting fields, I see a **card sample**.
+   - I can **edit** (adjust UI/attributes) or **approve**.
+   - On approval, I see **cost estimation** and pay via **USDC (Crypto) or Fiat (Asian Payment/Dinger)**.
+
+4. **Post-Payment**
+   - After payment, backend processes cards.
+   - I receive an **email notification with invoice** upon completion.
+
+---
+
+### **MVP Scope**
+-  **Mobile User**: Registration, login, card viewing, basic security.
+-  **Admin**: Organization management, card creation, payment.
+-  *Later*: Card suspension (lost phone), advanced verifier features.
+
+
