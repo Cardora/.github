@@ -222,3 +222,9 @@ Watch the complete demonstration of Cardora in action.
 -  *Later*: Card suspension (lost phone), advanced verifier features.
 
 
+# UI Imagination 
+
+This is the simple customer of our application would love to see his dashboard and issue cards
+- [Customer Admin](https://brand-card-flow.lovable.app)
+
+
